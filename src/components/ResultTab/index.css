@@ -1,0 +1,60 @@
+.backgroundResult {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-position: initial;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 100vh;
+  padding-top: 180px;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .backgroundResult {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    border-radius: 8px;
+    height: 85vh;
+  }
+}
+.scoreYourHeading {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+.scoreInRecord {
+  color: white;
+  margin-top: -20px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.trophy {
+  margin-top: -30px;
+  height: 150px;
+}
+.buttonContainerRecord {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #cf60c8;
+}
+.resetImage {
+  height: 20px;
+  margin-right: 5px;
+}
+.buttonRecord {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}

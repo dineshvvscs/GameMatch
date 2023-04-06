@@ -1,0 +1,15 @@
+.liELement {
+  margin: 10px;
+  color: white;
+}
+.tabButton {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+}
+.tabButtonClicked {
+  color: #fec653;
+  border-bottom: 1px solid #fec653;
+}
